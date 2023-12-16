@@ -1,5 +1,4 @@
-// import './HeaderLayout.scss';
-import HeaderPage from './pages/HeaderPage';
+import HeaderPage from './component/HeaderPage';
 
 function HeaderLayout() {
   return (

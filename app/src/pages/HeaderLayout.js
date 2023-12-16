@@ -1,5 +1,5 @@
 import './HeaderLayout.scss';
-import HeaderPage from '../layouts/header/pages/HeaderPage';
+import HeaderPage from '../layouts/header/component/HeaderPage';
 import { NavLink } from "react-router-dom";
 
 function HeaderLayout() {

@@ -1,0 +1,22 @@
+@import 'App.scss';
+
+.header_layout {
+  background-color: $apl-bg;
+  color: $apl-color;
+  font-family: $def-ff;
+  .header_nav {
+    font-family: $def-ff;
+    background-color: $apl-bg;
+    color: $apl-color;
+    .header_list {
+      margin: 0;
+      list-style-type: none;
+      .header_item {
+        .header_target {
+          color: $main-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
